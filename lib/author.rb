@@ -15,4 +15,8 @@ class Author
     post.author = self
     @posts << post
   end
+
+  def post_count
+    @posts.length
+  end
 end
