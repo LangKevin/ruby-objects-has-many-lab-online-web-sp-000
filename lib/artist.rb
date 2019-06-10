@@ -1,3 +1,4 @@
+require 'pry'
 class Artist
   attr_accessor :name
   @@all = []
@@ -21,7 +22,7 @@ class Artist
    @@all << song
  end
 
- def song_count
+ def self.song_count
    @@all.length
  end
 end
