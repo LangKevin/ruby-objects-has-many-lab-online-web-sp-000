@@ -28,6 +28,6 @@ class Artist
 
  def self.song_count
    binding.pry
-   return @@all.length
+   return songs.length
  end
 end
