@@ -6,7 +6,7 @@ class Author
     @posts = []
   end
   def add_post(post)
-    song.artist = self
+    post.author = self
     @posts << post
   end
   #
