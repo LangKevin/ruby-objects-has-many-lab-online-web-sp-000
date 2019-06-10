@@ -8,7 +8,7 @@ class Post
 
   def initialize(title)
     @title = title
-    all << self
+    @@all << self
   end
 
   def artist_name
